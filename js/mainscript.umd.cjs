@@ -1,0 +1,1 @@
+(function(n){typeof define=="function"&&define.amd?define(n):n()})(function(){"use strict";const n="",o=function(){const i=()=>{alert("hola")};return{getChildsForm:function(){i()}}}(),t=()=>{o.getChildsForm()};window.addEventListener("load",()=>{t()})});
