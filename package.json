@@ -3,6 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/js/mainscript.umd.cjs",
+  "module": "./dist/js/mainscript.js",
+  "exports": {
+    ".": {
+      "import": "./dist/js/mainscript.js",
+      "require": "./dist/js/mainscript.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
