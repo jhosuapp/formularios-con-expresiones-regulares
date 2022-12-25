@@ -1,0 +1,21 @@
+@mixin flex ($d: flex, $jc: center, $ai: center){
+    display: $d;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin transition ($td: $transition-duration, $tp: all, $ti: ease){
+    transition: $td $tp $ti;
+}
+
+@mixin restart ($m: 0, $p: 0, $td: none, $bs: border-box){
+    margin: $m;
+    padding: $p;
+    text-decoration: $td;
+    box-sizing: $bs;
+}
+
+@mixin restart-button ($b: none, $ot: inherit){
+    border: $b;
+    outline: inherit;
+}

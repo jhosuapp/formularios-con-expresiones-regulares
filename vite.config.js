@@ -15,6 +15,9 @@ export default defineConfig({
       output: {
         assetFileNames: "css/main.css",
       },
+      input: {
+        main: resolve(__dirname, 'index.html'),        
+      }
     },
   },
 });

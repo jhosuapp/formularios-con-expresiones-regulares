@@ -1,0 +1,19 @@
+$palette : (
+    'white': #fff,
+    'black': #050505,
+    'danger': #DD476F,
+    'white-medium': #FDFDFD,
+    'primary': #488AF7,
+    'primary-light': #dae8fd,
+);
+//BREAKPOINTS
+$breakpoints: (
+    'desktop': 1440px,
+    'desktop-small': 1280px,
+    'ipad-grande': 992px,
+    'ipad-pequeña': 768px,
+    'celular': 576px
+);
+//OTROS
+$transition-duration: .3s;
+$limit-width: 1500px;
